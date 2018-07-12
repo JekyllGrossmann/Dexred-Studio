@@ -1,0 +1,166 @@
+/*
+    ========================================
+    Typography
+    ========================================
+*/
+
+/*
+    ========================================
+    Links
+    ========================================
+*/
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+/*
+    ========================================
+    Navigation
+    ========================================
+*/
+.nav {
+    text-align: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.header-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+/*
+
+    ========================================
+    Row
+    ========================================
+*/
+
+/*
+
+    ========================================
+    Grid
+    ========================================
+*/
+
+/*
+    ========================================
+    Block of all site
+    ========================================
+*/
+
+body {
+  background: #727242;
+  color: #ded96f;
+  font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*
+    ========================================
+    Header
+    ========================================
+*/
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.reset:before,
+.reset:after {
+  content: "";
+  display: table;
+}
+.reset:after {
+  clear: both;
+}
+.reset {
+  clear: both;
+  *zoom: 1;
+}
+
+.logo {
+    padding: 10px 0 12px 0;
+    line-height: 44px;
+}
+
+.contact {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.contact li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.contact li:last-child {
+    margin-right: 0;
+}
+/*
+    ========================================
+    Main
+    ========================================
+*/
+.hero{
+    color:white;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+}
+
+hero h2 {
+    font-size: 40px;
+}
+
+hero p {
+    font-size: 22px;
+    font-weight: 100;
+}
+/*
+    ========================================
+    Buttom
+    ========================================
+*/
+.btn {
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.btn-alt {
+    border: 1px solid white;
+    padding: 10px 30px;
+}
+
+.btn-alt:hover {
+    background: white;
+    color:coral;
+}
+
